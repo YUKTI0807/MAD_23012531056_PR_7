@@ -23,7 +23,7 @@ To Generate JSON Data, Refer: https://app.json-generator.com/
 
 | JSON Generator `CODE` | JSON Generated `JSON` | In App Syncing |
 |---|---|---|
-| <img width="592" height="750" alt="Screenshot 2025-11-15 at 9 18 07 PM" src="https://github.com/user-attachments/assets/71eee898-d519-4584-8561-eebd0fed7131" /> | <img width="592" height="750" alt="image" src="https://github.com/user-attachments/assets/2ad86775-26c0-466c-8243-cdd267de81db" /> | <img width="592" height="750" alt="Screenshot_20251115_220001" src="https://github.com/user-attachments/assets/894cc809-c8b4-49ea-a4c1-306cad098001" /> |
+| <img width="592" height="750" alt="Screenshot 2025-11-15 at 9 18 07 PM" src="https://github.com/user-attachments/assets/71eee898-d519-4584-8561-eebd0fed7131" /> | <img width="592" height="750" alt="image" src="https://github.com/user-attachments/assets/2ad86775-26c0-466c-8243-cdd267de81db" /> | <!--here picture for the app ui--> |
 
 
 JSON : https://api.json-generator.com/templates/kvHxFgDYej7S/data <br>
