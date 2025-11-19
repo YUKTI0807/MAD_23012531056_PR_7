@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/person_icon_background"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/person_bg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/person_image"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_person"
+            app:layout_constraintBottom_toBottomOf="@id/person_icon_background"
+            app:layout_constraintEnd_toEndOf="@id/person_icon_background"
+            app:layout_constraintStart_toStartOf="@id/person_icon_background"
+            app:layout_constraintTop_toTopOf="@id/person_icon_background" />
+
+        <TextView
+            android:id="@+id/person_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/delete_button"
+            app:layout_constraintStart_toEndOf="@id/person_icon_background"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Aman Yadav" />
+
+        <TextView
+            android:id="@+id/person_phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="@id/person_name"
+            app:layout_constraintStart_toStartOf="@id/person_name"
+            app:layout_constraintTop_toBottomOf="@id/person_name"
+            tools:text="+917983385148" />
+
+        <TextView
+            android:id="@+id/person_email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/person_phone"
+            app:layout_constraintStart_toStartOf="@id/person_phone"
+            app:layout_constraintTop_toBottomOf="@id/person_phone"
+            tools:text="12345678900@gnu.ac.in" />
+
+        <TextView
+            android:id="@+id/person_address"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/person_email"
+            app:layout_constraintStart_toStartOf="@id/person_email"
+            app:layout_constraintTop_toBottomOf="@id/person_email"
+            tools:text="Himmatnagar, Gujarat" />
+
+        <ImageButton
+            android:id="@+id/delete_button"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:background="@drawable/delete_button_bg"
+            android:contentDescription="@string/delete"
+            android:src="@drawable/ic_delete"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
